@@ -278,7 +278,9 @@ body{
 .dropdown-chart-left{
 	margin-right:20px;
 }
-.dropdown-chart-right{}
+.dropdown-chart-right{
+	font-family: sans-serif;
+}
 .dropdown-chart-right h2{
 	font-size: 14px;
 	margin-top: 0;
@@ -315,6 +317,7 @@ body{
 }
 .chart-checkout span{
 	float:right;
+	font-family: sans-serif;
 }
 .chart-checkout button{
 	background: #062F3C none repeat scroll 0 0;
@@ -583,6 +586,7 @@ body{
 	margin-top:10%;
 	text-align:center;
 	margin-left:50px;
+	font-family: sans-serif;
 }
 .slide-image{
 	float:right;
