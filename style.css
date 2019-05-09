@@ -1977,6 +1977,9 @@ body.home-2{
 	border:1px solid #E1E1E1;
 	background:#fff;
 }
+.price-filter {
+	font-family: sans-serif;
+}
 .price-filter h2, .filter-size-area h2{
 	border-bottom: 1px solid #e1e1e1;
 	color: #838383;
