@@ -99,10 +99,13 @@ body{
 	height: 40px;
 	line-height: 40px;
 }
-.header-top-left{}
+.header-top-left{
+	font-family: sans-serif;
+}
 .header-top-menu{
 	float:left;
 	margin-right:35px;
+	font-family: sans-serif;
 }
 .header-top-menu ul{}
 .header-top-menu ul li{}
