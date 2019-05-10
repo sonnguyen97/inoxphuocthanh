@@ -91,117 +91,43 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-	<!-- HEADER AREA -->
-	<div class="header-area">
-		<div class="header-top-bar">
+		<!-- HEADER AREA -->
+		<div id="header"></div>
+		<!-- MAIN MENU AREA -->
+		<div class="main-menu-area">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="header-top-left">
-							<div class="header-top-menu">
-								<ul class="list-inline">
-									<li><img src="img/flag.png" alt="flag"></li>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Việt Nam</a>
-									</li>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">VND</a>
-									</li>
+					<div class="col-md-12">
+						<div class="main-menu hidden-xs">
+							<nav>
+								<ul>
+									<li><a href="index.html">Trang chủ</a></li>
+									<!-- <li><a href="shop.html">Shop</a></li> -->
+									<li><a href="shop.html">Bán sỉ & lẻ</a></li>
+									<li><a href="blog-single.html">Cẩm nang</a></li>
+									<li><a href="about-us.html">Giới thiệu</a></li>
+									<li><a href="contact.html">Liên hệ</a></li>
 								</ul>
-							</div>
-							<p>Chúc ngày mới vui vẻ!</p>
+							</nav>
 						</div>
-					</div>
-					<div class="col-md-8 col-sm-8 col-xs-12">
-						<div class="header-top-right">
-							<ul class="list-inline">
-								<li><a href="#"><i class="fa fa-user"></i>Tài khoản</a></li>
-								<!-- <li><a href="#"><i class="fa fa-heart"></i>Wishlist</a></li> -->
-								<li><a href="checkout.html"><i class="fa fa-check-square-o"></i>Thanh toán</a></li>
-								<li><a href="#"><i class="fa fa-lock"></i>Đăng nhập</a></li>
-								<li><a href="#"><i class="fa fa-pencil-square-o"></i>Đăng kí</a></li>
-							</ul>
+						<!-- Mobile MENU AREA -->
+						<div class="mobile-menu hidden-sm hidden-md hidden-lg">
+							<nav>
+								<ul>
+									<li><a href="index.html">Trang chủ</a></li>
+									<!-- <li><a href="shop.html">Shop</a></li> -->
+									<li><a href="shop.html">Bán sỉ & lẻ</a></li>
+									<li><a href="blog-single.html">Cẩm nang</a></li>
+									<li><a href="about-us.html">Giới thiệu</a></li>
+									<li><a href="contact.html">Liên hệ</a></li>
+								</ul>
+							</nav>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="header-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2 col-sm-2 col-xs-12">
-						<div class="header-logo">
-							<a href="index.html"><img src="img/logo.png" alt="logo"></a>
-						</div>
-					</div>
-					<div class="col-md-10 col-sm-10 col-xs-12">
-						<div class="search-chart-list">
-							<div class="catagori-menu">
-								<ul class="list-inline">
-									<li><i class="fa fa-search"></i></li>
-									<li>
-										<select>
-											<option value="all">Tất cả</option>
-											<option value="table">Bàn</option>
-											<option value="chair">Ghế</option>
-											<option value="box">Khung</option>
-											<option value="wardrobe">Tủ quần áo</option>
-											<option value="wardrobe">Khác</option>
-										</select>
-									</li>
-								</ul>
-							</div>
-							<div class="header-search">
-								<form action="#">
-									<input type="text" placeholder="Nhập để tìm kiếm" />
-									<button type="button"><i class="fa fa-search"></i></button>
-								</form>
-							</div>
-							<div class="header-chart">
-								<ul class="list-inline">
-									<li><a href="#"><i class="fa fa-cart-arrow-down"></i></a></li>
-									<li class="chart-li"><a href="#">Giỏ hàng</a>
-										<ul>
-											<li>
-												<div class="header-chart-dropdown">
-													<div class="header-chart-dropdown-list">
-														<div class="dropdown-chart-left floatleft">
-															<a href="#"><img src="img/product/best-product-1.png"
-																	alt="list"></a>
-														</div>
-														<div class="dropdown-chart-right">
-															<h2><a href="#">Bộ 10 ghế inox cap cấp</a></h2>
-															<h3>SL: 1</h3>
-															<h4>500.000VND</h4>
-														</div>
-													</div>
-													<div class="header-chart-dropdown-list">
-														<div class="dropdown-chart-left floatleft">
-															<a href="#"><img src="img/product/best-product-2.png"
-																	alt="list"></a>
-														</div>
-														<div class="dropdown-chart-right">
-															<h2><a href="#">Bàn inox tròn cao cấp</a></h2>
-															<h3>SL: 1</h3>
-															<h4>300.000VND</h4>
-														</div>
-													</div>
-													<div class="chart-checkout">
-														<p>Tổng<span>800.000VND</span></p>
-														<a href="cart.html" type="button" class="btn btn-warning">Thanh
-															toán</a>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#">2 sản phẩm</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+		<!-- HEADER AREA -->
 	<!-- MAIN MENU AREA -->
 	<div class="main-menu-area">
 		<div class="container">
@@ -280,43 +206,49 @@
 	<div id="footer"></div>
 	<!-- JS -->
 
-	<!-- jquery-1.11.3.min js
-		============================================ -->
-	<script src="js/vendor/jquery-1.11.3.min.js"></script>
 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<!-- <script type="text/javascript">
+	$(function () { $("#header").load("header.html") });
+</script> -->
+	<!-- jquery-1.11.3.min js
+	============================================ -->
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
 	<!-- bootstrap js
-		============================================ -->
+	============================================ -->
 	<script src="js/bootstrap.min.js"></script>
 
+
 	<!-- nivo slider js
-		============================================ -->
+	============================================ -->
 	<script src="js/jquery.nivo.slider.pack.js"></script>
 
 	<!-- Mean Menu js
-		============================================ -->
+	============================================ -->
 	<script src="js/jquery.meanmenu.min.js"></script>
 
 	<!-- owl.carousel.min js
-		============================================ -->
+	============================================ -->
 	<script src="js/owl.carousel.min.js"></script>
 
 	<!-- jquery price slider js
-		============================================ -->
+	============================================ -->
 	<script src="js/jquery-price-slider.js"></script>
 
 	<!-- wow.js
-		============================================ -->
+	============================================ -->
 	<script src="js/wow.js"></script>
 	<script>
 		new WOW().init();
 	</script>
 
 	<!-- plugins js
-		============================================ -->
+	============================================ -->
 	<script src="js/plugins.js"></script>
-
+	<script type="text/javascript" src="js/jquery-page.js"></script>
 	<!-- main js
-		============================================ -->
+	============================================ -->
 	<script src="js/main.js"></script>
 </body>
 </html>

@@ -543,6 +543,10 @@ i.nivo-prev-icon, i.nivo-next-icon {
 .social-share-icon .list-inline > li {
   padding-left: 0px;
   padding-right: 0px;
+  font-family: sans-serif;
+}
+.list-inline{
+  font-family: sans-serif;
 }
 .blog-comments {
   padding: 30px 0;
