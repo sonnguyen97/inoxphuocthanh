@@ -4133,3 +4133,7 @@ body.home-2 {
     background: #2B82AD;
     color: #fff;
 }
+
+.chart-item {
+    background-color: white;
+}
