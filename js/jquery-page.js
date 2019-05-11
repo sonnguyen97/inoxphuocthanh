@@ -24,6 +24,9 @@ function page(pagenumber) {
             case 7:
                 $(function() { $("#body_pages").load("cart.html") });
                 break;
+            case 8:
+                $(function() { $("#body_pages").load("checkout.html") });
+                break;
             default:
                 break;
         }
